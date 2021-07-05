@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_flight_menu"
+        android:title="Add flight" />
+    <item
+        android:id="@+id/search_by_aircraft"
+        android:title="Search by aircraft" />
+    <item
+        android:id="@+id/search_by_date"
+        android:title="Search by date" />
+    <item
+        android:id="@+id/see_flights_menu"
+        android:title="See flights" />
+</menu>

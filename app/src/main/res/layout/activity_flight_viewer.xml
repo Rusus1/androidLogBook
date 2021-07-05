@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlightViewer"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/flights"
+        android:layout_width="match_parent"
+        android:layout_height="489dp" />
+
+
+
+    <TextView
+        android:id="@+id/pic_time_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIC time: "
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/under_instruction_time_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Under instruction time: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total_time_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total time: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total_flights_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Number of flights: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
